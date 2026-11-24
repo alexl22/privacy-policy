@@ -1,4 +1,4 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -161,7 +161,7 @@
     <div class="container">
         <header>
             <h1>Privacy Policy</h1>
-            <p class="last-updated">Last updated: April 08, 2026</p>
+            <p class="last-updated">Last updated: November 24, 2026</p>
         </header>
 
         <div class="info-box">
@@ -197,9 +197,13 @@
                 <li>Personal Information: names, email addresses.</li>
             </ul>
             <h3>Sensitive Information</h3>
-            <p>We process financial data when necessary with your consent. <strong>Financial data entered by users is stored securely and is not shared with third parties.</strong></p>
-            <h3>Application Data</h3>
-            <p>We may request access to Push Notifications for account features.</p>
+            <p>We process financial data when necessary with your consent. <strong>Financial data entered by users is stored securely in Firebase and is never sold or shared with third-party advertisers.</strong> Relevant financial context is only transmitted securely to Google Gemini API when you actively choose to interact with Bob, our AI assistant.</p>
+            <h3>Application Data &amp; Device Permissions</h3>
+            <p>If you use our application, we may request access to the following device features with your explicit permission:</p>
+            <ul>
+                <li><strong>Microphone &amp; Speech Recognition:</strong> Used strictly when you activate voice commands to speak with Bob (your AI financial assistant) or dictate transactions. Audio is converted to text on your device or via platform speech services and is not stored permanently as audio files.</li>
+                <li><strong>Push Notifications:</strong> Used for reminders, bill alerts, and account notifications.</li>
+            </ul>
         </section>
 
         <section id="section2">
@@ -207,10 +211,12 @@
             <p>We process your information to:</p>
             <ul>
                 <li>Facilitate account creation and authentication.</li>
-                <li>Deliver and facilitate delivery of services.</li>
+                <li>Deliver and facilitate delivery of services, including syncing your transactions, budgets, and goals.</li>
+                <li><strong>Power Bob, our AI Financial Assistant:</strong> When you send a message or voice command to Bob, your prompt and relevant financial summaries (such as category totals, recent balances, and AI memory preferences) are sent securely to <strong>Google Gemini API</strong> solely to generate helpful responses and propose transactions for your confirmation.</li>
+                <li><strong>Monitor app stability and usage:</strong> We use <strong>Firebase Analytics</strong> and <strong>Firebase Crashlytics (by Google)</strong> to understand feature usage and diagnose crashes.</li>
                 <li>Respond to user inquiries and offer support.</li>
                 <li>To save or protect an individual's vital interest.</li>
-                <li>We use third-party services such as <strong>Firebase (by Google)</strong> for authentication and database storage.</li>
+                <li>We use <strong>Google Firebase</strong> for authentication and encrypted cloud database storage.</li>
             </ul>
         </section>
 
@@ -221,7 +227,12 @@
 
         <section id="section4">
             <h2>4. WHEN AND WITH WHOM DO WE SHARE DATA?</h2>
-            <p>We may share your information in connection with a merger, sale of assets, or financing. We do not sell your personal information.</p>
+            <p>We only share data with trusted third-party service providers strictly necessary to run the app:</p>
+            <ul>
+                <li><strong>Google Firebase</strong> (Authentication, Cloud Firestore, Analytics, Crashlytics) for secure data storage, authentication, and diagnostics.</li>
+                <li><strong>Google Gemini API</strong> when you actively choose to interact with Bob (our AI assistant) to process your financial queries and voice-transcribed requests.</li>
+            </ul>
+            <p>We may also share information in connection with a merger, sale of assets, or financing. We do not sell your personal or financial information, and we do not share it with third-party advertisers.</p>
         </section>
 
         <section id="section5">
